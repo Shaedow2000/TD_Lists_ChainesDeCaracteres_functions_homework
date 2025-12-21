@@ -13,12 +13,11 @@ def msg_voyelles( msg: str ) -> str:
 
 
 def main() -> None:
-    while True:
-        msg: str = input( '=> Message: ' )
+    msg: str = input( '=> Message: ' )
 
-        print( f'--> Les voyelles trouver sont: { msg_voyelles( msg ) }' )
+    print( f'--> Les voyelles trouver sont: { msg_voyelles( msg ) }' )
 
-        break
+    return
 
 if __name__ == '__main__':
     try:

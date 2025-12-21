@@ -5,12 +5,11 @@ def sort_alphabeticly( chars: str ) -> str:
     return ''.join( l )
 
 def main() -> None:
-    while True:
-        msg: str = input( '=> Message: ' )
+    msg: str = input( '=> Message: ' )
 
-        print( f'--> { sort_alphabeticly( msg ) }' )
+    print( f'--> { sort_alphabeticly( msg ) }' )
 
-        break
+    return
 
 if __name__ == '__main__':
     main()
